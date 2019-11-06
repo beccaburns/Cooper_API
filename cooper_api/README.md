@@ -1,24 +1,55 @@
-# README
+## The Cooper Challenge for CraftAcademy
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Authors
+- Becca Burns
+- Alex Saxena
 
-Things you may want to cover:
+### This application was built with the following;
+- **Front End:** React v.16.10.2, Semantic UI, CSS
+- **Back End:** Rails 5.2.3
+- **Testing frameworks:** RSpec
+- **Deployed at:** Netlify Status and Heroku.
 
-* Ruby version
+### What does the code do?
+This repository contains our solution to the server side of the Cooper Challenge. Our respective repositories for the Cooper Client side built in React can be found here and here.
 
-* System dependencies
+## Getting started
+### Dependencies
+- Rails
+- Bundler
+- Ruby v. 2.4.1
+- PostgreSQL
 
-* Configuration
+### Setup
+To test this application you need to fork it to your own GitHub account and clone it to your local workspace.
 
-* Database creation
+#### To install all of the dependencies:
+```
+$ bundle  
+```
 
-* Database initialization
+#### To create a new database:
+```
+$ rails db:create db:migrate  
+```
 
-* How to run the test suite
+#### To run the unit tests:
+```
+$ rspec
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+#### To start the application and run it on your local host:
+```
+$ rails s
+```
 
-* Deployment instructions
+### Updates/Improvements
+When time given, we would love to:
 
-* ...
+Finish implementing the BMI calculator on the server side.
+
+### License
+This project is under the MIT-license.
+
+### Acknowledgement
+Thank you CraftAcademy for giving us this assignment.
